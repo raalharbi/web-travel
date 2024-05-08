@@ -1,0 +1,140 @@
+@import url(Stylemyblog.css);
+@import url(media.css);
+
+.postpage {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.title {
+    border-left: 10px solid #70614e;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.title-article .title h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #70614e;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.title-article .title h5 {
+    text-align: left;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 5px 18px;
+}
+
+.title-article {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.pargraph {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.pargraph span {
+    font-weight: bold;
+    color: #4e402f;
+    font-size: larger;
+}
+
+.pargraph em {
+    display: block;
+    color: rgb(130, 111, 15);
+    font-weight: 900;
+}
+
+.pargraph .title-pargraph {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline #4e402f 3px;
+
+}
+
+.pargraph ul li {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/*author*/
+.author {
+    width: 256px;
+    float: left;
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #ddd;
+    overflow: hidden;
+
+}
+
+.information {
+    text-align: center;
+}
+
+.information h2 {
+    margin-top: 10px;
+    color: #4e402f;
+    font-weight: lighter;
+}
+
+.information h5 {
+    color: #4e402f;
+    font-weight: lighter;
+}
+
+.information p {
+    margin-top: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 250px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+.Social li {
+    display: inline;
+    padding: 10px;
+
+
+}
+
+.Social li a img {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
